@@ -1,6 +1,6 @@
 validation:
-  accepted: "The :attribute must be accepted."
-  active_url: "The :attribute is not a valid URL."
+  accepted: ":attribute 未被選擇接受"
+  active_url: "此 :attribute 非有效的URL地址"
   after: "The :attribute must be a date after :date."
   after_or_equal: "The :attribute must be a date after or equal to :date."
   alpha: "The :attribute may only contain letters."
@@ -24,29 +24,29 @@ validation:
   digits_between: "The :attribute must be between :min and :max digits."
   dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
-  email: "The :attribute must be a valid email address."
+  email: "The :attribute must be a 有效 email address."
   ends_with: "The :attribute must end with one of the following: :values."
   exists: "The selected :attribute is invalid."
-  file: "The :attribute must be a file."
+  file: "The :attribute 必須是 a file."
   filled: "The :attribute field must have a value."
   gt:
-    numeric: "The :attribute must be greater than :value."
-    file: "The :attribute must be greater than :value kilobytes."
-    string: "The :attribute must be greater than :value characters."
+    numeric: "The :attribute 必須是 greater than :value."
+    file: "The :attribute 必須是 greater than :value kilobytes."
+    string: "The :attribute 必須是 greater than :value characters."
     array: "The :attribute must have more than :value items."
   gte:
-    numeric: "The :attribute must be greater than or equal :value."
-    file: "The :attribute must be greater than or equal :value kilobytes."
-    string: "The :attribute must be greater than or equal :value characters."
+    numeric: "The :attribute 必須是 greater than or equal :value."
+    file: "The :attribute 必須是 greater than or equal :value kilobytes."
+    string: "The :attribute 必須是 greater than or equal :value characters."
     array: "The :attribute must have :value items or more."
-  image: "The :attribute must be an image."
+  image: "The :attribute 必須是 an image."
   in: "The selected :attribute is invalid."
   in_array: "The :attribute field does not exist in :other."
-  integer: "The :attribute must be an integer."
-  ip: "The :attribute must be a valid IP address."
-  ipv4: "The :attribute must be a valid IPv4 address."
-  ipv6: "The :attribute must be a valid IPv6 address."
-  json: "The :attribute must be a valid JSON string."
+  integer: "The :attribute 必須是 an integer."
+  ip: "The :attribute 必須是 a 有效 IP address."
+  ipv4: "The :attribute 必須是 a 有效 IPv4 address."
+  ipv6: "The :attribute 必須是 a 有效 IPv6 address."
+  json: "The :attribute 必須是 a 有效 JSON string."
   lt:
     numeric: "The :attribute must be less than :value."
     file: "The :attribute must be less than :value kilobytes."
@@ -69,12 +69,12 @@ validation:
     file: "The :attribute must be at least :min kilobytes."
     string: "The :attribute must be at least :min characters."
     array: "The :attribute must have at least :min items."
-  not_in: "The selected :attribute is invalid."
-  not_regex: "The :attribute format is invalid."
+  not_in: "The selected :attribute is 無效."
+  not_regex: "The :attribute format is 無效."
   numeric: "The :attribute must be a number."
   password: "The password is incorrect."
   present: "The :attribute field must be present."
-  regex: "The :attribute format is invalid."
+  regex: "The :attribute format is 無效."
   required: "The :attribute field is required."
   required_if: "The :attribute field is required when :other is :value."
   required_unless: "The :attribute field is required unless :other is in :values."
@@ -82,27 +82,27 @@ validation:
   required_with_all: "The :attribute field is required when :values are present."
   required_without: "The :attribute field is required when :values is not present."
   required_without_all: "The :attribute field is required when none of :values are present."
-  same: "The :attribute and :other must match."
+  same: "The :attribute and :other 必需符合"
   size:
     numeric: "The :attribute must be :size."
     file: "The :attribute must be :size kilobytes."
     string: "The :attribute must be :size characters."
     array: "The :attribute must contain :size items."
   starts_with: "The :attribute must start with one of the following: :values."
-  string: "The :attribute must be a string."
-  timezone: "The :attribute must be a valid zone."
-  unique: "The :attribute has already been taken."
+  string: "The :attribute 必須是 a string."
+  timezone: "The :attribute 必須是 a 有效 zone."
+  unique: "The :attribute has 已經 been taken."
   uploaded: "The :attribute failed to upload."
-  url: "The :attribute format is invalid."
-  uuid: "The :attribute must be a valid UUID."
+  url: "The :attribute format is 無效."
+  uuid: "The :attribute must be a 有效 UUID."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    username: 用戶名
+    password: 密碼
+    email: 電郵
+    title: 標題
+    content: 內容
+    name_singular: 單數名稱
+    name_plural: 眾數名稱
+    tag_count_primary: 主Tags數量
+    tag_count_secondary: 次Tags數量
